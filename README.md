@@ -25,7 +25,6 @@ Both the frontend and backend are hosted on Google App Engine, ensuring a seamle
 
 <h2>🔗 Project Links and User Credentials </h2>
 
-Links:
 - **Analytics Dashboard** - https://frontend-dot-starry-iris-377408.oa.r.appspot.com/
 - **API Endpoints** - https://api-dot-starry-iris-377408.oa.r.appspot.com/
 
@@ -92,4 +91,3 @@ python api.py
 cd frontend
 streamlit run main.py
 ```
-
