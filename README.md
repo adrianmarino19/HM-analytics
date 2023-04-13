@@ -13,12 +13,15 @@
 
 The project is built from four components:
 
-1. A frontend built with Streamlit, which allows users to register and login, but most importantly to view and manipulate data visualizations regarding the customers, articles, and transactions data.
+1. A frontend built with Streamlit, which allows users to register and login, but most importantly to view and manipulate data visualizations regarding the customers, articles, and transactions data. Additionally, there is a .streamlit config folder which personalizes the theme of the application.
 2. A backend API built with Flask, which handles user authentication and serves data to the frontend from the database in JSON format via HTTP GET requests.
 3. Google Cloud SQL-based MySQL database with four tables: customers, articles, transactions, and users (containing the credentials for login information).
 4. User authentication and registration, which stores user information in the users table within database and verifies credentials during login.
 
-Both the frontend and backend are hosted on Google App Engine, ensuring a seamless link between the two components. To reduce loading times, the application limits the number of rows retrieved to 1000 rows each.<p>
+Both the frontend and backend are hosted on Google App Engine, ensuring a seamless link between the two components. To reduce loading times, the application limits the number of rows retrieved to 1000 rows each. 
+
+Please beware that the link doesn't apply the registration and login. However, by running the application locally, the code does include this two features. 
+<p>
 
 <h2>🔗 Project Links and User Credentials </h2>
 
@@ -37,12 +40,13 @@ In order to access either the catalog or the dashboard services, please use one 
 
 <h2>💻 Technology Stack </h2>
 
-Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
+<p>Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.<p>
 
 
 <h2>🏃 How to Run the Project Locally<h2>
 
-1. Clone the repository:
+  <p>
+e1. Clone the repository:
 
 ```
 git clone https://github.com/sophieschaesberg/HnM-dashboard.git
