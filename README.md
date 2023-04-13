@@ -29,7 +29,7 @@ Links:
 - **Analytics Dashboard** - https://frontend-dot-starry-iris-377408.oa.r.appspot.com/
 - **API Endpoints** - https://api-dot-starry-iris-377408.oa.r.appspot.com/
 
-In order to access either the catalog or the dashboard services, please use one of the pre-registered profiles below:
+In order to access the dashboard, please use one of the profiles below:
 
 | Username  | Password |
 | ------------- | ------------- |
@@ -37,6 +37,7 @@ In order to access either the catalog or the dashboard services, please use one 
 | gustavo  | capstone  |
 | adrianmarino  | willywonka  |
 
+Keep in mind that locally you can add more profiles to the database.
 
 <h2>💻 Technology Stack </h2>
 
