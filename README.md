@@ -56,7 +56,7 @@ The datasets consist of Customers, Transactions, and Articles. Each of the datas
 3.  **Transactions dataset** featuring date, customer_id, article_id, price, and sales_channel_id, providing insights on general/channel sales performance and customer purchasing behavior.
 
 
-<h2> 👮🏻‍♂️ Security</h2>
+<h2> 🔐 Security</h2>
 
 For a secure connection between frontend (client-side) and backend (server-side), API keys are used. Functionality comes from the frontend sending the API key in the authorization header whenever making requests to the backend. The backend then verifies the API key before processing the request.
 
