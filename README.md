@@ -49,7 +49,7 @@ Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 1. Clone the repository:
 
 ```
-git clone https://github.com/sophieschaesberg/HnM-dashboard.git
+git clone https://github.com/adrianmarino19/HM-analytics.git
 ```
 
 2. Set up a virtual environment and activate it:
@@ -79,7 +79,7 @@ python api.py
 
 ```
 cd frontend
-streamlit run streamlit.py
+streamlit run main.py
 ```
 
 <h2> 📊 Datasets </h2>
