@@ -86,8 +86,8 @@ streamlit run streamlit.py
 
 The datasets consist of data related with Customers, Transactions, and Articles. Each of the datasets contain their own columns, briefly explained below:
 
-- **Customers Dataset:** The Customers dataset features columns such as customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
+- **Customers dataset** featuringcustomer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
 
-- **Transactions Dataset:** The Transactions dataset features columns such as t_dat, customer_id, article_id, price, and sales_channel_id.
+- **Transactions dataset** featuring t_dat, customer_id, article_id, price, and sales_channel_id.
 
-- **Articles Dataset:** The Articles dataset features columns such as article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name.
+- **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name.
