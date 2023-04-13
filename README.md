@@ -57,7 +57,7 @@ The datasets consist of data related with Customers, Transactions, and Articles.
 
 <h2>Security</h2>
 
-For a secure connection between frontend (client-side) and backend (server-side), API keys are used. Functionality comes from the frontend sending the API key in the autheroization header whenever making requests to the backend. The backend then verifies the API key before processing the request.
+For a secure connection between frontend (client-side) and backend (server-side), API keys are used. Frontend sends the API key in the authorization header whenever making requests to the backend. The backend then verifies the API key before processing each request.
 
 
 <h2> 🏃 How to Run the Project Locally</h2>
