@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg", width = "20%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg", width = "15%">
 </p>
 <h3 align="center">H&M Analytics</h3>
 
