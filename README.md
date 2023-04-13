@@ -7,6 +7,7 @@
 <p align="center"><b>By:</b> Adrian Marino</p>
 <p align="center"><b>Project Supervisors:</b> Gustavo Martín Vela & Pepe García</p>
 
+
 <h2> 🌎 Overview </h2>
 
 <p> The H&M KPI Dashboard is a web-based application that presents a comprehensive overview of various Key Performance Indicators (KPIs) using real datasets from H&M. Especifically, the data is based on customers, articles, and transactions data. By employing a cloud-based architecture, the application fetches, filters, and displays KPI data in <b>real-time</b>.<p>
@@ -47,11 +48,16 @@ Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 
 The datasets consist of data related with Customers, Transactions, and Articles. Each of the datasets contain their own columns, briefly explained below:
 
-- **Customers dataset** featuring customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
+1. **Customers dataset** featuring customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
 
-- **Transactions dataset** featuring t_dat, customer_id, article_id, price, and sales_channel_id.
+2. **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name.
 
-- **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name.
+3.  **Transactions dataset** featuring t_dat, customer_id, article_id, price, and sales_channel_id.
+
+
+<h2>Security</h2>
+
+For a secure connection between frontend (client-side) and backend (server-side), API keys are used. Functionality comes from the frontend sending the API key in the autheroization header whenever making requests to the backend. The backend then verifies the API key before processing the request.
 
 
 <h2> 🏃 How to Run the Project Locally</h2>
