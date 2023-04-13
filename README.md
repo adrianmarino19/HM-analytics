@@ -7,7 +7,7 @@
 <p align="center"><b>By:</b> Adrian Marino</p>
 <p align="center"><b>Project Supervisors:</b> Gustavo Martín Vela & Pepe García</p>
 
-<h2> Overview </h2>
+<h2> 🌎 Overview </h2>
 
 <p> The H&M KPI Dashboard is a web-based application that presents a comprehensive overview of various Key Performance Indicators (KPIs) using real datasets from H&M. Especifically, the data is based on customers, articles, and transactions data. By employing a cloud-based architecture, the application fetches, filters, and displays KPI data in <b>real-time</b>.<p>
 
@@ -39,12 +39,12 @@ In order to access the dashboard, please use one of the profiles below:
 
 Keep in mind that locally you can add more profiles to the database.
 
-<h2>💻 Technology Stack </h2>
+<h2> 💻 Technology Stack </h2>
 
 Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 
 
-<h2>🏃 How to Run the Project Locally</h2>
+<h2> 🏃 How to Run the Project Locally</h2>
 
 1. Clone the repository:
 
@@ -82,7 +82,7 @@ cd frontend
 streamlit run streamlit.py
 ```
 
-<h2>📊 Datasets </h2>
+<h2> 📊 Datasets </h2>
 
 The datasets consist of data related with Customers, Transactions, and Articles. Each of the datasets contain their own columns, briefly explained below:
 
