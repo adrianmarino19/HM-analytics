@@ -16,7 +16,7 @@ The project is built from four components:
 
 1. A frontend built with Streamlit, which allows users to register and login, but most importantly to <b>view and manipulate data visualizations regarding the customers, articles, and transactions data</b>. Additionally, there is a .streamlit config folder which personalizes the theme of the application.
 2. A backend API built with Flask, which handles user authentication and serves data to the frontend from the database in JSON format via HTTP GET requests.
-3. Google Cloud SQL-based MySQL database with four tables: customers, articles, transactions, and users (containing the credentials for login information).
+3. Google Cloud MySQL database with four tables: customers, articles, transactions, and users (containing the credentials for login information).
 4. User authentication and registration, which stores user information withindatabase and verifies credentials when login.
 
 Both the frontend and backend are hosted on Google App Engine, ensuring a seamless link between the two components. To reduce loading times, the application limits the number of rows retrieved to 1000 rows each. 
