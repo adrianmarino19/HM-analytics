@@ -26,11 +26,12 @@ Both the frontend and backend are hosted on Google App Engine, ensuring a seamle
 
 <h2>🔗 Project Links and User Credentials </h2>
 
-- **Analytics Dashboard** - https://frontend-dot-starry-iris-377408.oa.r.appspot.com/
-- **API Endpoints** - https://api-dot-starry-iris-377408.oa.r.appspot.com/
+<ul>
+  <li><a href="https://frontend-dot-starry-iris-377408.oa.r.appspot.com/"><strong>Analytics Dashboard</strong></a> - Click here to visit the Analytics Dashboard.</li>
+  <li><a href="https://api-dot-starry-iris-377408.oa.r.appspot.com/"><strong>API Endpoints</strong></a> - Click here to view the API Endpoints.</li>
+</ul>
 
 In order to access the dashboard, please use one of the profiles below:
-
 | Username  | Password |
 | ------------- | ------------- |
 | pepegarcia  | python |
@@ -57,7 +58,7 @@ The datasets consist of data related with Customers, Transactions, and Articles.
 
 <h2>Security</h2>
 
-For a secure connection between frontend (client-side) and backend (server-side), API keys are used. Frontend sends the API key in the authorization header whenever making requests to the backend. The backend then verifies the API key before processing each request.
+For a secure connection between frontend (client-side) and backend (server-side), API keys are used. Functionality comes from the frontend sending the API key in the authorization header whenever making requests to the backend. The backend then verifies the API key before processing the request.
 
 
 <h2> 🏃 How to Run the Project Locally</h2>
