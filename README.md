@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg", width="20%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg", width = "20%">
 </p>
 <h3 align="center">H&M Analytics</h3>
 
@@ -9,7 +9,7 @@
 
 <h2> Overview </h2>
 
-<p> The H&M KPI Dashboard is a web-based application that presents a comprehensive overview of various Key Performance Indicators (KPIs) using real datasets from H&M. Especifically, the data is based on customers, articles, and transactions data. By employing a cloud-based architecture, the application fetches, filters, and displays KPI data in <b>real-time<b>.
+<p> The H&M KPI Dashboard is a web-based application that presents a comprehensive overview of various Key Performance Indicators (KPIs) using real datasets from H&M. Especifically, the data is based on customers, articles, and transactions data. By employing a cloud-based architecture, the application fetches, filters, and displays KPI data in <b>real-time</b>.<p>
 
 The project is built from four components:
 
@@ -20,8 +20,8 @@ The project is built from four components:
 
 Both the frontend and backend are hosted on Google App Engine, ensuring a seamless link between the two components. To reduce loading times, the application limits the number of rows retrieved to 1000 rows each. 
 
-Please beware that the link doesn't apply the registration and login. However, by running the application locally, the code does include this two features. 
-<p>
+<p><b>Please beware</b> that the link doesn't apply the registration and login. However, by running the application locally, the code does include this two features.<p>
+
 
 <h2>🔗 Project Links and User Credentials </h2>
 
@@ -40,13 +40,12 @@ In order to access either the catalog or the dashboard services, please use one 
 
 <h2>💻 Technology Stack </h2>
 
-<p>Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.<p>
+Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 
 
-<h2>🏃 How to Run the Project Locally<h2>
+<h2>🏃 How to Run the Project Locally</h2>
 
-  <p>
-e1. Clone the repository:
+1. Clone the repository:
 
 ```
 git clone https://github.com/sophieschaesberg/HnM-dashboard.git
