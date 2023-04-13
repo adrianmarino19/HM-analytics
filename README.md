@@ -47,7 +47,7 @@ Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 
 The datasets consist of data related with Customers, Transactions, and Articles. Each of the datasets contain their own columns, briefly explained below:
 
-- **Customers dataset** featuringcustomer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
+- **Customers dataset** featuring customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
 
 - **Transactions dataset** featuring t_dat, customer_id, article_id, price, and sales_channel_id.
 
@@ -91,3 +91,4 @@ python api.py
 cd frontend
 streamlit run main.py
 ```
+
