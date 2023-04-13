@@ -5,7 +5,7 @@
 <h3 align="center">H&M Analytics</h3>
 
 <p align="center"><b>By:</b> Adrian Marino</p>
-<p align="center"><b>Project Supervisors:</b> Gustavo Martín Vela & Pepe García</p>
+<p align="center"><b>Supervisors:</b> Gustavo Martín Vela & Pepe García</p>
 
 
 <h2> 🌎 Overview </h2>
