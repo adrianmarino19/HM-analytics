@@ -14,14 +14,14 @@
 
 The project is built from four components:
 
-1. A frontend built with Streamlit, which allows users to register and login, but most importantly to view and manipulate data visualizations regarding the customers, articles, and transactions data. Additionally, there is a .streamlit config folder which personalizes the theme of the application.
+1. A frontend built with Streamlit, which allows users to register and login, but most importantly to <b>view and manipulate data visualizations regarding the customers, articles, and transactions data</b>. Additionally, there is a .streamlit config folder which personalizes the theme of the application.
 2. A backend API built with Flask, which handles user authentication and serves data to the frontend from the database in JSON format via HTTP GET requests.
 3. Google Cloud SQL-based MySQL database with four tables: customers, articles, transactions, and users (containing the credentials for login information).
-4. User authentication and registration, which stores user information in the users table within database and verifies credentials during login.
+4. User authentication and registration, which stores user information withindatabase and verifies credentials when login.
 
 Both the frontend and backend are hosted on Google App Engine, ensuring a seamless link between the two components. To reduce loading times, the application limits the number of rows retrieved to 1000 rows each. 
 
-<p><b>Please beware</b> that the link doesn't apply the registration and login. However, by running the application locally, the code does include this two features.<p>
+<p><b>Please beware that for ease-of-use reasons, the link doesn't include the registration and login</b>. However, by running the application locally, the code does include these two features.<p>
 
 
 <h2>🔗 Project Links and User Credentials </h2>
@@ -49,7 +49,7 @@ Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 
 The datasets consist of Customers, Transactions, and Articles. Each of the datasets contains their own columns, briefly explained below:
 
-1. **Customers dataset** featuring customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code, providing insights on demographics, behavior, and preferences. 
+1. **Customers dataset** featuring customer_id, Active, club_member_status, fashion_news_frequency, age, and postal_code, providing insights on demographics, behavior, and preferences. 
 
 2. **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name, providing insights on customer preferences, H&M's product offering, and product popularity.
 
