@@ -44,6 +44,17 @@ Keep in mind that locally you can add more profiles to the database.
 Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 
 
+<h2> 📊 Datasets </h2>
+
+The datasets consist of data related with Customers, Transactions, and Articles. Each of the datasets contain their own columns, briefly explained below:
+
+- **Customers dataset** featuringcustomer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
+
+- **Transactions dataset** featuring t_dat, customer_id, article_id, price, and sales_channel_id.
+
+- **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name.
+
+
 <h2> 🏃 How to Run the Project Locally</h2>
 
 1. Clone the repository:
@@ -82,12 +93,3 @@ cd frontend
 streamlit run main.py
 ```
 
-<h2> 📊 Datasets </h2>
-
-The datasets consist of data related with Customers, Transactions, and Articles. Each of the datasets contain their own columns, briefly explained below:
-
-- **Customers dataset** featuring customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
-
-- **Transactions dataset** featuring t_dat, customer_id, article_id, price, and sales_channel_id.
-
-- **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name.
