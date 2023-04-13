@@ -47,13 +47,13 @@ Python, SQL, Flask, Streamlit, Pandas, Google App Engine, MySQL.
 
 <h2> 📊 Datasets </h2>
 
-The datasets consist of data related with Customers, Transactions, and Articles. Each of the datasets contain their own columns, briefly explained below:
+The datasets consist of Customers, Transactions, and Articles. Each of the datasets contains their own columns, briefly explained below:
 
-1. **Customers dataset** featuring customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code.
+1. **Customers dataset** featuring customer_id, FN, Active, club_member_status, fashion_news_frequency, age, and postal_code, providing insights on demographics, behavior, and preferences. 
 
-2. **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name.
+2. **Articles dataset** featuring article_id, product_code, prod_name, product_type_name, colour_group_name, department_name, index_group_name, and section_name, providing insights on customer preferences, H&M's product offering, and product popularity.
 
-3.  **Transactions dataset** featuring t_dat, customer_id, article_id, price, and sales_channel_id.
+3.  **Transactions dataset** featuring date, customer_id, article_id, price, and sales_channel_id, providing insights on general/channel sales performance and customer purchasing behavior.
 
 
 <h2>Security</h2>
